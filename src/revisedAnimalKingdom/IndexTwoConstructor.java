@@ -1,3 +1,4 @@
+//Constructor
 package revisedAnimalKingdom;
 import java.util.Scanner;
 public class IndexTwoConstructor {

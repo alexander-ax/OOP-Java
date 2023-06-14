@@ -10,7 +10,7 @@ public class AnimalsConstructor {
         this.animals = animals;
         this.endangered = endangered;
     }
-    public void animalsInfo(){
+    void animalsInfo(){
         switch (endangered) {
             case 1:
                 System.out.println("\n" +animals[0]);
