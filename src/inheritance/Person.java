@@ -5,7 +5,7 @@ public class Person {
     String name, religion, sex;
     int age;
 
-    Person(){}
+    Person(){} //If hindi mo kailangan maglagay ng arguments
     Person(String name, String religion, String sex, int age){
         this.name = name;
         this.religion = religion;

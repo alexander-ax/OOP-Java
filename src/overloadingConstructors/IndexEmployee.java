@@ -1,4 +1,4 @@
-package OverloadingConstructors;
+package overloadingConstructors;
 
 public class IndexEmployee {
     public static void main (String[] args){
