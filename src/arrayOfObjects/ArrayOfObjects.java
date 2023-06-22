@@ -10,10 +10,9 @@ public class ArrayOfObjects {
         System.out.println("\nSTUDENT SIMULATION");
         System.out.print("\nHow many Students you want to enter: ");
         int number = input.nextInt();
-        int choice = number - 1;
         input.nextLine();
 
-        for (int x = 0; x <= choice; x++){
+        for (int x = 0; x < number; x++){
             System.out.println("\n***** STUDENT *****");
             System.out.print("First Name: ");
             firstname = input.nextLine();
